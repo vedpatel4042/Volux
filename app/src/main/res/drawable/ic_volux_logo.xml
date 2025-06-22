@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Main volume shape -->
+    <path
+        android:fillColor="@color/primary_cyan"
+        android:pathData="M6,16v16h8l10,10V6L14,16H6z" />
+
+    <!-- Sound waves -->
+    <path
+        android:fillColor="@color/primary_purple"
+        android:strokeColor="@color/primary_purple"
+        android:strokeWidth="2"
+        android:pathData="M32,24c0,-3.54 -2.04,-6.58 -5,-8.06v16.12c2.96,-1.48 5,-4.52 5,-8.06z" />
+
+    <path
+        android:fillColor="@color/accent_magenta"
+        android:strokeColor="@color/accent_magenta"
+        android:strokeWidth="2"
+        android:pathData="M28,6.46v4.12c5.78,1.72 10,7.07 10,13.42s-4.22,11.7 -10,13.42v4.12c8.01,-1.82 14,-8.97 14,-17.54S36.01,8.28 28,6.46z" />
+
+</vector>

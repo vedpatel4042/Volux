@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Volux" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary_cyan</item>
+        <item name="colorPrimaryVariant">@color/primary_purple</item>
+        <item name="colorOnPrimary">@color/primary_black</item>
+        <item name="colorSecondary">@color/primary_purple</item>
+        <item name="colorSecondaryVariant">@color/accent_magenta</item>
+        <item name="colorOnSecondary">@color/accent_white</item>
+        <item name="android:statusBarColor">@color/primary_black</item>
+        <item name="android:navigationBarColor">@color/primary_black</item>
+        <item name="android:windowBackground">@color/main_background</item>
+    </style>
+
+
+    <style name="Theme.Volux.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+</resources>

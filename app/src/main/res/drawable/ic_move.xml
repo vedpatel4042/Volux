@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?attr/colorOnSurface">
+
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M13,6v5h5V9.5l3.5,3.5 -3.5,3.5V14h-5v5h1.5L10.5,22.5 7,19h1.5v-5H3v1.5L-0.5,12 3,8.5V10h5.5V5H7l3.5,-3.5L14,5h-1V6z"/>
+
+    <!-- Alternative four-arrow design -->
+    <group>
+        <!-- Up arrow -->
+        <path
+            android:fillColor="@android:color/white"
+            android:pathData="M12,2l3,3h-2v4h-2V5h-2z"/>
+        <!-- Down arrow -->
+        <path
+            android:fillColor="@android:color/white"
+            android:pathData="M12,22l-3,-3h2v-4h2v4h2z"/>
+        <!-- Left arrow -->
+        <path
+            android:fillColor="@android:color/white"
+            android:pathData="M2,12l3,-3v2h4v2H5v2z"/>
+        <!-- Right arrow -->
+        <path
+            android:fillColor="@android:color/white"
+            android:pathData="M22,12l-3,3v-2h-4v-2h4v-2z"/>
+        <!-- Center circle -->
+        <path
+            android:fillColor="@android:color/white"
+            android:pathData="M12,12m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    </group>
+</vector>

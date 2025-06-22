@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/floating_buttons_background">
+
+    <!-- Volume Up Button -->
+    <ImageButton
+        android:id="@+id/btnVolumeUp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/volume_button_background"
+        android:src="@drawable/ic_volume_up"
+        android:contentDescription="Volume Up"
+        android:scaleType="centerInside"
+        android:padding="12dp"
+        app:tint="@color/accent_white" />
+
+    <!-- Volume Down Button -->
+    <ImageButton
+        android:id="@+id/btnVolumeDown"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/volume_button_background"
+        android:src="@drawable/ic_volume_down"
+        android:contentDescription="Volume Down"
+        android:scaleType="centerInside"
+        android:padding="12dp"
+        app:tint="@color/accent_white" />
+
+</LinearLayout>
